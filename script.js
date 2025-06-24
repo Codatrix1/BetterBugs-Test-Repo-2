@@ -1,2 +1,5 @@
-require("https://example.com/api/v1");
-console.log("Test console log");
+(function () {
+  throw new Error("Random error #" + Math.floor(Math.random() * 100));
+})();
+
+  
